@@ -15,7 +15,7 @@ export const useForm = () => {
 
     const handleClick = e => {
         if( Object.keys( todo ).length === 0 || todo.todo.trim() === '') {
-            alert( 'el campo no puede estar vacio' )
+            alert( 'El campo no puede estar vacio' )
             return
         }
 
